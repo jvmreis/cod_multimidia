@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Codificação de Sinais Multimídia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #000080;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    /* Style the navigation menu */
+    nav {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #708090;
+      padding: 1 px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    /* Style the content */
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #C0C0C0;
+      padding: 10px;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #000080;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    .center_text {
+      display: flex;
+      justify-content: center;
+    }
+
+    .line_space_text {
+      line-height: 1.8;
+    }
+
+    .center_image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="center_text">
+    <h1>Codificação de Sinais Multimídia </h1>
+  </div>
+  <div class="center_text">
+    <h2> Exercício 2 – Exercício de Audiometria e Visual .</h2>
+  </div>
+
+  <header>
+    <h2>João Victor Martins Reis RA:11201810522</h2>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <big>
+          <div class="line_space_text">
+            <li><a href="https://www.ufabc.edu.br/">UFABC</a> </li>
+            <li><a href="https://graduacao.ufabc.edu.br/informacao/">Eng.Informação</a></li>
+            <li><a href="https://github.com/jvmreis/">Github</a></li>
+            <li><a html="ex2_individual.html">[Ex2] Exercício individual</a></li>
+
+        </big>
+        </div>
+      </ul>
+    </nav>
+
+    <article>
+
+      <h2>Relatório de Testes</h2>
+      <p>Utilizando os fones envolventes, cada integrante do grupo deve realizou suas audições individualmente. 
+        Como temos uma sensibilidade diferente para cada faixa de frequência, fizemosr vários testes de 
+        sensibilidade, para percorrer qual o nível de audição que nosso Sistema Auditivo capta, dependendo da 
+        frequência do sinal.
+      </p>
+      <h2>A) Teste com Fone de Ouvido </h2>
+      <p>
+        Com a utilziação de um fone de ouvidos obteve-se o seguinte resultado:
+      </p>
+
+      <img src="teste_auditivo_fone.png" alt="audiometria com fone de ouvido" class="center_image">
+
+      <p>
+        Analisando o grafico , pode se observar que o resultado do meu teste deu como audição normal e com perda leve em algumas faixas de frquencia
+        .os simbolos vermelho [o] representa a audição do ouvido
+        o Azul [x] o esquedo e o verde [+] ambos os lados.
+        na faixa dos 500 hz 1khz 2k e 8k meu ouvido tem mais dificuldade de capturar o som
+      </p>
+
+      <h3>B) Teste com Fone de Ouvido não envolvente</h3>
+      <p>
+        Com a utilziação do auto falante do notebook obteve-se o seguinte resultado:
+      </p>
+      <img src="teste_auditivo_auto_falante.png" alt="audiometria com auto falante" class="center_image">
+      <p>
+        Analisando o grafico , pode se observar que o resultado do meu teste deu como perda leve e em algumas faixas de frquencia como perda moderada.
+        .os simbolos vermelho [o] representa a audição do ouvido
+        o Azul [x] o esquedo e o verde [+] ambos os lados.
+        na faixa dos 250 hz 500 meu ouvido tem mais dificuldade de capturar o som.
+      </p>
+      <h3>Conculsão do teste auditivo:</h3>
+    <p>
+      Tecnicamente o teste auditivo possui variações pois, estamos diante de duas situações: ou o teste auditivo que está sendo realizado pode não ter sido bem calibrado ou houve algum erro no teste auditvo. Entretanto, podem ser obtidas informações úteis neste site, embora de natureza diferente.
+      A condição calibrada pressupõe que você esteja usando bons fones de ouvido ou alto-falantes - a resposta deles deve ser plana em toda a faixa de frequência testada (250-8000 Hz) - e você conseguiu calibrar corretamente os níveis de som. Nesse caso, a precisão deste teste auditivo é estimada em cerca de 10 dBNA, o que é bom o suficiente para diagnosticar uma perda auditiva leve, moderada ou grave: simplesmente observe os gráficos de limiar no audiograma e dê-lhes uma tolerância de 10 dBNA. .
+
+      A condição não calibrada pode ser entendida através do pior cenário: os fones de ouvido ou alto-falantes têm desempenho ruim e os teste podem não ser confiaveis.
+    </p> 
+
+    <h2>A) Teste Visual</h2>
+
+      <img src="teste_visual.png" alt="teste visual" class="center_image">
+
+      <p>
+       Analisando o resultado do teste, conclui-se que eu estou com a visão boa pois, obtive bons resultados nas 4 cateogiras.
+      <p>
+     <p>
+        <ul>
+          <li>Visão de contraste: A visão de contraste refere-se à capacidade de distinguir diferentes níveis de contraste entre objetos e o fundo. Uma boa visão de contraste é importante para tarefas como leitura, dirigir à noite e identificar objetos em ambientes com pouca luz.</li>
+          <li>Visão de cores: A visão de cores refere-se à capacidade de perceber e distinguir diferentes cores. A maioria das pessoas tem uma visão de cores normal e pode ver uma ampla variedade de cores. No entanto, algumas pessoas podem ter algum tipo de deficiência na visão de cores, como o daltonismo, que afeta a capacidade de distinguir certas cores.</li>
+          <li>Astigmatismo: O astigmatismo é um problema visual comum em que a forma da córnea ou do cristalino do olho é irregular, resultando em visão distorcida. Pessoas com astigmatismo podem ter dificuldade em ver objetos tanto de perto quanto de longe, e podem experimentar visão embaçada ou distorcida.</li>
+          <li>Campo visual: O campo visual refere-se à área que podemos ver quando olhamos em frente. É a área que nossos olhos abrangem quando olhamos diretamente para alguma coisa sem mover os olhos. Um campo visual normalmente inclui a visão periférica e a visão central.</li>
+        </ul>
+      <p>Essas categorias são avaliadas durante um exame oftalmológico para determinar a saúde e a qualidade da visão de uma pessoa. É importante realizar exames regulares dos olhos para monitorar e tratar qualquer problema visual que possa surgir. Se você tiver alguma preocupação com a sua visão, é melhor consultar um profissional de saúde ocular qualificado.</p>
+        
+
+    </div>
+
+      <p> ... </p>
+    </article>
+  </section>
+
+  <footer>
+    <p>saiba mais</p>
+  </footer>
+
+</body>
+
+</html>
